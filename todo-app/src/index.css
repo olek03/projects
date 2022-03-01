@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&family=Pacifico&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  margin-top: 20vh;
+  box-shadow: 0 0 2px 2px;
+  border-radius: 10px;
+  padding: 2px 20px 20px 20px;
+  height: fit-content;
+  width: max-content;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top h1 {
+  margin-right: 30px;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  color: white;
+  width: max-content;
+  padding: 10px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.top button {
+  background-color: limegreen;
+}
+
+.top input {
+  border-radius: 20px;
+  padding: 2px 2px 2px 7px;
+  font-weight: bold;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.tasks {
+  padding: 0px 20px 0px 20px;
+}
+
+.footer button {
+  background-color: coral;
+}
+
+.footer {
+  height: min-content;
+}
+
+.footer p {
+  margin-bottom: 0px;
+}
+
+.task input {
+  width: 20px;
+  height: 20px;
+}
+
+.task {
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  margin-top: 10px;
+}
